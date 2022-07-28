@@ -10,6 +10,14 @@
   </v-card>
 </template>
 
+<style>
+ img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+</style>
+
 <script>
 import axios from "axios";
 import sanitizeHtml from "sanitize-html";
